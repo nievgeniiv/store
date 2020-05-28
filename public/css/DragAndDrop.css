@@ -1,0 +1,24 @@
+body {
+   font:12px/1.4 verdana;
+   padding: 5px;
+   margin:10px;
+}
+
+#drop-area {
+   background: #F4F4F4;
+   border: 1px dashed black;
+   padding: 15px;
+   margin-bottom: 10px;
+}
+
+#drop-area.active {
+   border-color: orange;
+}
+
+#drop-area.inactive {
+   border-color: black;
+}
+
+.imgDragAndDrop {
+   width: 20%;
+}
